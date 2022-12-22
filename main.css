@@ -1,20 +1,24 @@
 body{
     background-image: url("./icons/favicon-32x32.png");
-
+    background-color: rgba(0,0,0,.65);
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+}
+h1{
+    font-size: 4rem;
+    color: pink;
 }
 
 p.intro {
     color: blue;
-    text-align: center;
     font-family: "Arial Black";
     border-top: 2px red double;
     border-bottom: 2px yellow dashed;
     border-right: lightblue dotted;
     border-left: brown solid;
     background-color: pink;
-    width: 500px;
     box-shadow: 15px -4px darkgrey;
-
 
 
 
