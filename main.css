@@ -1,0 +1,25 @@
+body{
+    color: lightblue;
+    font-size: 1.5rem;
+    background-image: url("./icons/favicon-32x32.png");
+    background-color: rgba(0,0,0,.60);
+}
+
+h1{
+    color: white;
+    font-size: 4rem;
+}
+ul{
+    color: yellow;
+}
+p{
+    color: white;
+    line-height: 28px;
+    font-size: 1.3rem;
+
+    text-align: center;
+    background-color: rgba(0,0,0,.75);
+    padding: 20px;
+    max-width: 450px;
+
+}
