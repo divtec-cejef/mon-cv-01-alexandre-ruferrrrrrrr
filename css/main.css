@@ -1,25 +1,37 @@
-body{
-    background-image: url("../icons/favicon-32x32.png");
-    background-color: rgba(0,0,0,.65);
+body {
+    background-image: url("../images/imagepourfond.webp");
     font-size: 1.5rem;
     color: white;
     text-align: center;
 }
-h1{
+
+h1 {
+    font-family: "Sofia Sans Semi Condensed", sans-serif;
     font-size: 4rem;
     color: pink;
 }
 
 p.intro {
-    color: blue;
-    font-family: "Bauhaus 93", cursive;
-    border-top: 2px red double;
+    color: white;
+    font-family: "Sofia Sans Semi Condensed", sans-serif;
+    border-top: 2px red dashed;
     border-bottom: 2px yellow dashed;
-    border-right: lightblue dotted;
-    border-left: brown solid;
-    background-color: pink;
-    box-shadow: 15px -4px darkgrey;
+    border-right: lightblue dashed;
+    border-left: brown dashed;
+    box-shadow: 15px -4px darkblue;
+    display: inline-block;
 
+}
 
+img{
+    max-width: 100%;
+    height: auto;
+    width: 250px;
+}
+
+ul {
+    display : inline-block;
+    margin :auto;
+    text-align:left;
 
 }
