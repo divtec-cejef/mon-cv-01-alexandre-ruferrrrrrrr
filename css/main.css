@@ -1,24 +1,29 @@
 body {
-    background-image: url("../images/imagepourfond.webp");
+    background-image: url("../images/fond_titre.png");
     font-size: 1.5rem;
-    color: white;
+    color: black;
     text-align: center;
 }
 
 h1 {
     font-family: "Sofia Sans Semi Condensed", sans-serif;
     font-size: 4rem;
+    color: black;
+}
+h2 {
     color: pink;
+}
+.liens {
+    font-family: "lora" , Serif;
 }
 
 p.intro {
-    color: white;
+    color: darkblue;
     font-family: "Sofia Sans Semi Condensed", sans-serif;
-    border-top: 2px red dashed;
-    border-bottom: 2px yellow dashed;
-    border-right: lightblue dashed;
-    border-left: brown dashed;
-    box-shadow: 15px -4px darkblue;
+    border-top: 2px darkblue dashed;
+    border-bottom: 2px darkblue dashed;
+    border-right: 2px darkblue dashed;
+    border-left: 2px darkblue dashed;
     display: inline-block;
 
 }
@@ -30,8 +35,13 @@ img{
 }
 
 ul {
+    color: darkslategray;
     display : inline-block;
     margin :auto;
     text-align:left;
+    font-family: "Roboto Condensed" , sans-serif;
 
+}
+p {
+    color: darkslategray;
 }
